@@ -1,0 +1,11 @@
+‘∆øŒÃ√Í«≥∆£∫π¢π¢”‡ª¥ÿº
+import java.util.Scanner;
+public class Main{
+	public static void main(String[] args) {
+		Scanner sca = new Scanner(System.in);
+		int f_temp = sca.nextInt();
+		double c_temp = 5*(f_temp-32)/9;
+		int c_temp_int = (int)c_temp;
+		System.out.println(c_temp_int);
+	}
+}
